@@ -7,7 +7,7 @@
     "dev": "vite --open",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "eslint": "eslint src",
+    "lint": "eslint src",
     "fix": "eslint src --fix",
     "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
     "lint:eslint": "eslint src/**/*.{ts,vue} --cache --fix",
