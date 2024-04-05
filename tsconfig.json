@@ -11,9 +11,10 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": "./",//解析基地址
-    "paths": {//路径映射
-      "@/*":["src/*"]
+    "baseUrl": "./", //解析基地址
+    "paths": {
+      //路径映射
+      "@/*": ["src/*"]
     },
 
     "noEmit": true,

@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue';
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <svg style="width: 30;height:30">
+    <svg style="width: 30; height: 30">
       <use xlink:href="#icon-cz" fill="red"></use>
     </svg>
   </div>

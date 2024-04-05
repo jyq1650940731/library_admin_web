@@ -16,7 +16,8 @@ module.exports = {
                 'chore',//其他修改
                 'revert',//回滚
                 'build',//编译修改
-                'lint'//规则
+                'lint',//规则
+                'config',
             ]
         ],
       'body-leading-blank': [2, 'always'],
