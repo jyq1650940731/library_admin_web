@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
-</script>
+
 
 <template>
   <div>
@@ -10,13 +8,15 @@ import HelloWorld from './components/HelloWorld.vue';
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-    <svg style="width: 30; height: 30">
-      <use xlink:href="#icon-cz" fill="red"></use>
-    </svg>
+    <svg-icon name="jh" color="red" />
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
-
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue';
+// @ts-ignore
+import SvgIcon from './components/SvgIcon/index.vue';
+</script>
 <style scoped lang="less">
 .logo {
   height: 6em;
